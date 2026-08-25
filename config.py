@@ -1,7 +1,7 @@
 import os
 
 # Bot token from environment
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8854162164:AAF0V_l54ETS1ri-TbTtudCNoFuUw-JN2xE")
 
 # Admin Telegram user IDs
 ADMIN_IDS = [672211281]
