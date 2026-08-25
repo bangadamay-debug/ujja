@@ -9,7 +9,7 @@ ADMIN_IDS = [672211281]
 # Required channels (username without @)
 REQUIRED_CHANNELS = [
     "TheTricksMaster",
-    "https://t.me/+m7ORE3sz5aFiNzJl",
+    "-1001267968308",
 ]
 
 REQUIRED_CHANNEL_LINKS = [
