@@ -7,7 +7,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 ADMIN_IDS = [1446058092, 6894923643]
 
 # Required channels (username without @)
-REQUIRED_CHANNELS = ["TheTricksMaster", "-1001267968308"]
+REQUIRED_CHANNELS = ["TheTricksMaster"]
 REQUIRED_CHANNEL_LINKS = [
     "https://t.me/TheTricksMaster",
     "https://t.me/+m7ORE3sz5aFiNzJl",
