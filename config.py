@@ -4,7 +4,7 @@ import os
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 # Admin Telegram user IDs
-ADMIN_IDS = [1446058092, 6894923643]
+ADMIN_IDS = [672211281]
 
 # Required channels (username without @)
 REQUIRED_CHANNELS = ["TheTricksMaster"]
