@@ -66,7 +66,10 @@ async def check_channels(bot, user_id: int) -> list:
     not_joined = []
     for channel in REQUIRED_CHANNELS:
         try:
-            member = await bot.get_chat_member(f"@{channel}", user_id)
+            member = await bot.get_chat_member(
+    f"@{channel}" if isinstance(channel, str) else channel,
+    user_id
+)
             if member.status in (ChatMember.LEFT, ChatMember.BANNED, "kicked", "left"):
                 not_joined.append(channel)
         except TelegramError:
